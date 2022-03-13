@@ -50,6 +50,22 @@ public:
         return ans;
         
         
+        //좀더 최적화
+        //두 포인터의 높이 중, 높이가 낮은 포인터는
+        //(움직일수록 가로 길이가 줄어들기때문에) 높이가 이전보다 높을때까지 포인터를 움직인다.
+        /*
+        int water = 0;
+        int i = 0, j = height.size() - 1;
+        while (i < j) {
+            int h = min(height[i], height[j]);
+            water = max(water, (j - i) * h);
+            while (height[i] <= h && i < j) i++;
+            while (height[j] <= h && i < j) j--;
+        }
+        return water;
+        */
+        
+        
         
     }
 };
