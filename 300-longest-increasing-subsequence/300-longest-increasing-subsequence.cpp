@@ -19,7 +19,7 @@ public:
         }
         
         if(ans == 0)
-            return 1;
+            return 1; //모든 원소가 값이 동일 할때는 ans 가 0되어 예외처리
         return ans;
     }
 };
