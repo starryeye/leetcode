@@ -5,6 +5,7 @@ public:
         
         int n = nums.size();
         
+        //예외 처리
         if(!n)
             return 0;
         else if(n == 1)
@@ -15,7 +16,7 @@ public:
             int tmpMax = nums[i];
             for(int j = 0; j < i; j++)
             {
-                if(i - j > 1)
+                if(i - j > 1) // 핵심 코드 : 직전 집이 바로 옆집이면 안된다. 
                 {
                     tmpMax = max(tmpMax, nums[i]+nums[j]);
                 }
@@ -23,6 +24,6 @@ public:
             nums[i] = tmpMax;
         }
         
-        return max(nums[n-1], nums[n-2]);
+        return max(nums[n-1], nums[n-2]); //최댓값은 항상 맨마지막 또는 그 바로앞이다.
     }
 };
