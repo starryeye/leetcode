@@ -12,7 +12,7 @@ public:
             dpmax[i] = max(nums[i], max(dpmax[i-1]*nums[i], dpmin[i-1]*nums[i])); //양수
             dpmin[i] = min(nums[i], min(dpmax[i-1]*nums[i], dpmin[i-1]*nums[i])); //음수
             
-            minmax = max(minmax, dpmin[i]);
+            minmax = min(minmax, dpmin[i]);
             maxmax = max(maxmax, dpmax[i]);
         }
         return maxmax;
