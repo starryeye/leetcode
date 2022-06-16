@@ -1,7 +1,8 @@
 class Solution {
 public:
     
-    
+    //문제에선 쓰이지 않았지만.. 도움됨
+    //https://learncom1234.tistory.com/6
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         
         //예외 처리
