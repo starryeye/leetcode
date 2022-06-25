@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //원래는 backtracking으로 푸는 듯... discuss 참조..
      vector<vector<int>> combine(int n, int k) {
          
          vector<vector<int>> answer;
