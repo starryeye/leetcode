@@ -41,6 +41,8 @@ public:
         return false;// 못찾음
     }
     
+    //input : [["A","B","C","E"],["S","F","E","S"],["A","D","E","E"]], "ABCESEEEFS", expect result : true
+    //input : [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB", expect result : false
     bool exist(vector<vector<char>>& board, string word) {
         
         int n = board.size();
