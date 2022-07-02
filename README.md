@@ -127,3 +127,7 @@ leetcode 75 (level 1)
 - Day 1 Array
 
 724 // 너무 어렵게.. 한방에 해결하려는 생각을 버리자..
+
+- Day 2 String
+
+205 // hash
