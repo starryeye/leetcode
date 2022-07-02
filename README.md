@@ -131,3 +131,5 @@ leetcode 75 (level 1)
 - Day 2 String
 
 205 // hash
+
+392 // 이런것도 two point라 볼수 있다.
