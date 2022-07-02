@@ -1,6 +1,15 @@
 class Solution {
 public:
-    
+    //답지..
+    bool isSubsequence(string s, string t) {
+        int idx=0;
+        for(int i=0 ; i<t.size() ; i++){
+            if(t[i] == s[idx]) idx++;
+        }
+        if(idx == s.size()) return true;
+        else return false;
+    }
+    /*
     int solv(char a, int start, string t) {
         
         for(int i = start; i < t.size(); i++) {
@@ -23,4 +32,5 @@ public:
         
         return true;
     }
+    */
 };
