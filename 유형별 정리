@@ -1,0 +1,114 @@
+leetcode 유형 정리
+
+
+ - Easy
+
+Array
+1. Two Sum (Hash Table)
+136. Single Number (Bit Manipulation)
+66. Plus One (Math)
+
+Dynamic Programming
+118. Pascal's Triangle (Array)
+121. Best Time to Buy and Sell Stock (Array)
+70. Climbing Stairs (Math, Memoization)
+
+Two Pointer
+125. Valid Palindrome (String)
+26. Remove Duplicates from Sorted Array (Array)
+28. Implement strStr() (String, String Matching)
+392. Is Subsequence (String, Dynamic Programming)
+
+Hash Table
+13. Roman to Integer (Math, String)
+169. Majority Element (Array, Sorting, Counting)
+205. Isomorphic Strings (String)
+217. Contains Duplicate (Array, Sorting)
+
+String
+14. Longest Common Prefix
+171. Excel Sheet Column Number (Math)
+
+Prefix Sum
+1480. Running Sum of 1d Array (Array)
+724. Find Pivot Index (Array)
+
+Sorting
+88. Merge Sorted Array (Array, Two Pointer)
+
+Stack
+20. Valid Parentheses (String)
+
+Linked List
+21. Merge Two Sorted Lists (Recursion)
+234. Palindrome Linked List (Two Pointer, Stack, Recursion)
+
+Math
+9. Palindrome Number (Two Pointer..)
+
+
+
+
+
+
+
+ - Medium
+
+Array
+253. Meeting Rooms II (Two Pointer, Greedy, Sorting, Heap(Priority Queue))
+665. Non-decreasing Array
+
+Two Pointer
+11. Container With Most Water (Array, Greedy)
+15. 3Sum (Array, Sorting)
+
+Stack
+1249. Minimum Remove to Make Valid Parentheses (String)
+1762. Buildings With an Ocean View (Array, Monotonic Stack)
+
+Hash Table
+128. Longest Consecutive Sequence (Array, Union Find)
+133. Clone Graph (DFS/BFS, Graph)
+3. Longest Substring Without Repeating Characters (String, Sliding Window)
+380. Insert Delete GetRandom O(1) (Array, Math, Design, Randomized)
+
+Dynamic Programming
+139. Word Break (Hash Table, String, Trie, Memoization)
+152. Maximum Product Subarray (Array)
+198. House Robber (Array)
+213. House Robber II (Array)
+300. Longest Increasing Subsequence (Array, Binary Search)
+322. Coin Change (Array, BFS)
+377. Combination Sum IV (Array)
+53. Maximum Subarray (Array, Divide and Conquer)
+
+Binary Search
+162. Find Peak Element (Array)
+
+Greedy
+1775. Equal Sum Arrays With Minimum Number of Operations (Array, Hash Table, Counting)
+
+Linked List
+2. Add Two Numbers (Math, Recursion)
+
+BFS/DFS
+200. Number of Islands (Array, Union Find, Matrix)
+207. Course Schedule (Graph, Topological Sort)
+417. Pacific Atlantic Water Flow (Array, Matrix)
+
+Sorting
+215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
+56. Merge Intervals (Array)
+
+Prefix Sum
+560. Subarray Sum Equals K (Array, Hash Table)
+
+Backtracking
+77. Combinations
+79. Word Search (BFS..)
+
+Math
+50. Pow(x, n) (Recursion)
+
+String
+6. Zigzag Conversion
