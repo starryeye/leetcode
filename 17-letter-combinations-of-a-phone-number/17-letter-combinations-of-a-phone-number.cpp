@@ -3,6 +3,9 @@
 class Solution {
 public:
     
+    //
+    //discuss 보고.. 코드량 줄이기 + 다양한 접근법 보기(recursion(dfs), iterative, ...)
+    //
     void combination(string digits, int index, vector<string>& answer, string pushing ) {
         if(index == digits.size()) {
             answer.push_back(pushing);
