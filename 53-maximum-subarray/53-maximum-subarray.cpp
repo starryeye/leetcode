@@ -2,6 +2,7 @@ class Solution {
 public:
     //https://leetcode.com/problems/maximum-subarray/discuss/1595195/C++Python-7-Simple-Solutions-w-Explanation-or-Brute-Force-+-DP-+-Kadane-+-Divide-and-Conquer
     //참고하면 좋음
+    /*
     int maxSubArray(vector<int>& nums) {
         
         int n = nums.size();
@@ -17,4 +18,27 @@ public:
         
         return *max_element(dp.begin(), dp.end());
     }
+    */
+    //prefix sum 아님?
+    int maxSubArray(vector<int>& nums) {
+        
+        int n = nums.size();
+        
+        int prefix = 0;
+        
+        int answer = nums[0];
+        int minNum = 0; //주의! 공집합은 합이 0이다, minNum이 0이라는 말은.. prefix 자체가 max라는 말!
+        
+        for(int i=0; i<nums.size(); i++) {
+            
+            //prefix
+            prefix += nums[i];
+            
+            answer = max(answer, prefix - minNum);
+            minNum = min(prefix, minNum);
+        }
+        
+        return answer;
+    }
+    
 };
