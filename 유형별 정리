@@ -128,6 +128,7 @@ Backtracking
 77. Combinations
 79. Word Search (BFS..)
 93. Restore IP Addresses (String, BFS..)
+46. Permutations (Array)
 
 Math
 50. Pow(x, n) (Recursion)
