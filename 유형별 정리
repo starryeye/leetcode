@@ -143,6 +143,7 @@ Backtracking
 79. Word Search (BFS..)
 93. Restore IP Addresses (String, BFS..)
 46. Permutations (Array)
+22. Generate Parentheses (String, Dynamic Programming, BFS..)
 
 Math
 50. Pow(x, n) (Recursion)
