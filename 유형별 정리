@@ -102,6 +102,7 @@ Hash Table
 347. Top K Frequent Elements (Array, Divide and Conquer, Sorting, Heap(Priority Queue), Bucket Sort, Counting, Quickselect)
 146. LRU Cache (Linked List, Design, Doubly-Linked List)
 532. K-diff Pairs in an Array (Array, Two Pointers, Binary Search, Sorting)
+166. Fraction to Recurring Decimal (Math, String)
 
 Sliding Window
 438. Find All Anagrams in a String (String, Hash Table)
