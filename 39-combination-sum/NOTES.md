@@ -1,4 +1,5 @@
 ​
+backtracking -> 배재, 풀이 단축된다.
 Sum (진정한 backtracking..)
 
 2
