@@ -22,6 +22,7 @@ Array
 
 Binary Search
 35. Search Insert Position (Array)
+704. Binary Search (Array)
 
 Dynamic Programming
 118. Pascal's Triangle (Array)
@@ -55,9 +56,6 @@ Prefix Sum
 
 Sorting
 88. Merge Sorted Array (Array, Two Pointer)
-
-Binary Search
-704. Binary Search (Array)
 
 Stack
 20. Valid Parentheses (String)
