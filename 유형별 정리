@@ -17,7 +17,6 @@ prefix sum의 빼고싶은 최소 구간(sub array 앞쪽 index) : 53 (prefix su
  - Easy
 
 Array
-1. Two Sum (Hash Table)
 136. Single Number (Bit Manipulation)
 66. Plus One (Math)
 
@@ -39,6 +38,7 @@ Two Pointer
 202. Happy Number (Hash Table, Math, Floyd Cycle Detection..)
 
 Hash Table
+1. Two Sum (Array)
 13. Roman to Integer (Math, String)
 169. Majority Element (Array, Sorting, Counting)
 205. Isomorphic Strings (String)
