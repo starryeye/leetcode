@@ -7,10 +7,13 @@ public:
         
         for(auto num : nums) {
             
-            if(!um[num])
+            if(um.find(num) == um.end()) {
+                
                 um[num]++;
-            else
-                um.erase(num);            
+            }else {
+                
+                um.erase(num);
+            }        
         }
         
         for(auto um : um) {
