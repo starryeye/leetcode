@@ -139,6 +139,7 @@ Sorting
 56. Merge Intervals (Array)
 75. Sort Colors (Array, Two Pointers)
 1152. Analyze User Website Visit Pattern (Array, Hash Table)
+973. K Closest Points to Origin (Array, Math, Divide and Conquer, Geometry, Heap(Priority Queue), Quickselect)
 
 Prefix Sum
 560. Subarray Sum Equals K (Array, Hash Table)
