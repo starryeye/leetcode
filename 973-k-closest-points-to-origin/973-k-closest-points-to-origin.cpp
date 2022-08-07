@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //https://leetcode.com/problems/k-closest-points-to-origin/discuss/221532/C%2B%2B-STL-quickselect-priority_queue-and-multiset
+    //위 uri 참고하면 좋다.. 여러가지 방법이 있다..
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         
         //멀티맵도 key로 정렬됨(기본 less)
