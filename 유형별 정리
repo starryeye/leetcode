@@ -140,6 +140,7 @@ Sorting
 75. Sort Colors (Array, Two Pointers)
 1152. Analyze User Website Visit Pattern (Array, Hash Table)
 973. K Closest Points to Origin (Array, Math, Divide and Conquer, Geometry, Heap(Priority Queue), Quickselect)
+378. Kth Smallest Element in a Sorted Matrix (Array, Binary Search, Sorting, Heap(Priority Queue), Matrix)
 
 Prefix Sum
 560. Subarray Sum Equals K (Array, Hash Table)
