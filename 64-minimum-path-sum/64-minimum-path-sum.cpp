@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //https://leetcode.com/problems/minimum-path-sum/discuss/23457/C%2B%2B-DP
+    //더 코드를 정리하는 법..
     int minPathSum(vector<vector<int>>& grid) {
         
         vector<vector<int>> dp(grid.size(), vector<int>(grid[0].size(), 0));
