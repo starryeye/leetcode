@@ -134,6 +134,7 @@ BFS/DFS
 200. Number of Islands (Array, Union Find, Matrix)
 207. Course Schedule (Graph, Topological Sort)
 417. Pacific Atlantic Water Flow (Array, Matrix)
+199. Binary Tree Right Side View (Tree, Binary Tree)
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
