@@ -156,6 +156,7 @@ Backtracking
 22. Generate Parentheses (String, Dynamic Programming, BFS..)
 39. Combination Sum (Array)
 78. Subsets (Array, Bit Manipulation)
+131. Palindrome Partitioning (Array, Dynamic Programming)
 
 Math
 50. Pow(x, n) (Recursion)
