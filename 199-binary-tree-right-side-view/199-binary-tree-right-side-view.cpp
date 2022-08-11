@@ -12,6 +12,7 @@
 class Solution {
 public:
     
+    //DFS
     void levelup(TreeNode* root, int level, vector<int>& answer) {
         
         if(!root)
