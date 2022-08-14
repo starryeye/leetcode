@@ -166,3 +166,6 @@ Math
 String
 6. Zigzag Conversion
 17. Letter Combinations of a Phone Number (Hash Table, Backtracking)
+
+Matrix
+289. Game of Life (Array, Simulation)
