@@ -162,6 +162,7 @@ Backtracking
 39. Combination Sum (Array)
 78. Subsets (Array, Bit Manipulation)
 131. Palindrome Partitioning (Array, Dynamic Programming)
+2178. Maximum Split of Positive Even Integers (Math, Greedy)
 
 Math
 50. Pow(x, n) (Recursion)
