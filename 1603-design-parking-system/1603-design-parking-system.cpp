@@ -1,11 +1,17 @@
 class ParkingSystem {
 public:
     
+    /*
     ParkingSystem(int big, int medium, int small) : space(4, 0){
         
         space[1] = big;
         space[2] = medium;
         space[3] = small;
+        
+    }
+    */
+    ParkingSystem(int big, int medium, int small) {
+        space = {0,big, medium, small};
     }
     
     bool addCar(int carType) {
