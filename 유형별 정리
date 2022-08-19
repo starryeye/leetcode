@@ -150,6 +150,9 @@ Sorting
 973. K Closest Points to Origin (Array, Math, Divide and Conquer, Geometry, Heap(Priority Queue), Quickselect)
 378. Kth Smallest Element in a Sorted Matrix (Array, Binary Search, Sorting, Heap(Priority Queue), Matrix)
 
+Heap(Priority Queue)
+1405. Longest Happy String (String, Greedy)
+
 Prefix Sum
 560. Subarray Sum Equals K (Array, Hash Table)
 53. Maximum Subarray (Array, Divide and Conquer, Dynamic Programming)
