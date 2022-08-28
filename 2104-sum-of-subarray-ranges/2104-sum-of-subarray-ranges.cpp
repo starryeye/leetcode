@@ -2,6 +2,7 @@ class Solution {
 public:
     
     //O(n^3)
+    //monotonic stack 풀이는 discuss 참조
     long long subArrayRanges(vector<int>& nums) {
         
         long long answer = 0;
