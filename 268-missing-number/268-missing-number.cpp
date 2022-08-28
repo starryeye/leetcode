@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //bit manipulation 해결법은 discuss로.. 한번 보기
     int missingNumber(vector<int>& nums) {
         
         int sum = 0;
