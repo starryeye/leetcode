@@ -2,6 +2,11 @@
 
 유형별 정리 -> 유형별 정리
 
+
+아래 사용 안함!
+
+-> 유형별 정리 페이지 참고
+
 ----------------------------------------------------------------------------------------------------------------------------
 
 추천 문제 : https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
