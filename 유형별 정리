@@ -52,6 +52,7 @@ Hash Table
 409. Longest Palindrome (String, Greedy)
 350. Intersection of Two Arrays II (Array, Two Pointers, Binary Search, Sorting)
 1207. Unique Number of Occurrences (Array)
+2357. Make Array Zero by Subtracting Equal Amounts (Array, Sorting, Heap(Priority Queue), Simulation)
 
 String
 14. Longest Common Prefix
