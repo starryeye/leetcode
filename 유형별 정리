@@ -53,6 +53,7 @@ Hash Table
 350. Intersection of Two Arrays II (Array, Two Pointers, Binary Search, Sorting)
 1207. Unique Number of Occurrences (Array)
 2357. Make Array Zero by Subtracting Equal Amounts (Array, Sorting, Heap(Priority Queue), Simulation)
+1941. Check if All Characters Have Equal Number of Occurrences (String, Counting)
 
 String
 14. Longest Common Prefix
