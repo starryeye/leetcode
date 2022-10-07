@@ -73,6 +73,9 @@ Stack
 20. Valid Parentheses (String)
 496. Next Greater Element I (Array, Hash Table, Monotonic Stack)
 
+Queue
+346. Moving Average from Data Stream (Array, Design, Data Stream)
+
 Linked List
 21. Merge Two Sorted Lists (Recursion)
 234. Palindrome Linked List (Two Pointer, Stack, Recursion)
