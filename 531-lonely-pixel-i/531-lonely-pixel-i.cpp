@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //Hash table 로 푸는 방법은 discuss를 참고 해보자..
     
     //시작점 (i, j)좌표에서 4개의 방향으로 쭉 가면서 B가 있는지 탐색한다.
     //B가 있으면 그 B를 시작점으로 하여 동일한 작업을 해준다.
