@@ -168,6 +168,7 @@ BFS/DFS
 399. Evaluate Division (Array, Union Find, Graph, Shortest Path)
 1730. Shortest Path to Get Food (Array, Matrix)
 1091. Shortest Path in Binary Matrix (Array, Matrix)
+1020. Number of Enclaves (Array, Union Find, Matrix)
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
