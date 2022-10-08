@@ -1,6 +1,10 @@
 class Solution {
 public:
     
+    //시작점 (i, j)좌표에서 4개의 방향으로 쭉 가면서 B가 있는지 탐색한다.
+    //B가 있으면 그 B를 시작점으로 하여 동일한 작업을 해준다.
+    //B는 W로 바꾸어준다.
+    //시작점 제외하고 B가 탐색되면 return 값은 false이다.
     bool isValid(int i, int j, vector<vector<char>>& picture) {
         
         int ny = 0;
@@ -85,7 +89,7 @@ public:
             for(int j = 0; j < picture[0].size(); j++) {
                 
                 if(picture[i][j] == 'B') {
-                    if(isValid(i, j, picture))
+                    if(isValid(i, j, picture)) //true이면 lonely pixel 이다.
                         answer++;
                 }
             }
