@@ -1,6 +1,7 @@
 class Solution {
 public:
     
+    //stack 활용
     string removeDuplicates(string s, int k) {
         
         vector<pair<char, int>> st;
@@ -21,8 +22,12 @@ public:
         return answer;
     }
     
+    
+    //https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/discuss/392867/C%2B%2B-3-approaches
+    // -> brute force, two pointer 접근방식.. 참고
+    
     /*
-    //bad answer...
+    //아래는 잘못된 접근방식이다.....
     // -> time limit Exceeded
     bool checkAndRemove(string& s, int k) {
         
