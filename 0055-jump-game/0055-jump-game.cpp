@@ -21,7 +21,7 @@ public:
     
     
     /*
-    -> 마지막 인덱스 도달 경우의 수...
+    -> 마지막 인덱스 도달 경우의 수...?
     bool canJump(vector<int>& nums) {
         
         vector<int> dp(nums.size(), 0);
@@ -43,3 +43,33 @@ public:
     }
     */
 };
+/*
+-> dp(update)
+class Solution {
+
+    vector<int> memo;
+    
+    public:
+    
+    bool canJump(vector<int>& nums) {
+    
+        int n=nums.size();
+        vector<int> dp(n,0);
+        
+        dp[0]=true;
+        
+        for(int i=1;i<n;i++){
+        
+             for(int j=i-1;j>=0;j--){
+             
+                 if(dp[j] && j+nums[j]>=i){
+                     dp[i]=true;
+                     break;
+                 }       
+             }           
+        }
+        
+        return dp[n-1];
+  }
+};
+*/
