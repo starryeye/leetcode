@@ -146,6 +146,7 @@ Dynamic Programming
 64. Minimum Path Sum (Array, Matrix)
 1567. Maximum Length of Subarray With Positive Product (Array, Greedy)
 1048. Longest String Chain (Array, Hash Table, Two Pointer, String)
+55. Jump Game (Array, Greedy)
 
 Binary Search
 162. Find Peak Element (Array)
