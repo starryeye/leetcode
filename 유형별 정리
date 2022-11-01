@@ -189,6 +189,7 @@ Sorting
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
+692. Top K Frequent Words (Hash Table, String, Trie, Sorting, Bucket Sort, Counting)
 
 Prefix Sum
 560. Subarray Sum Equals K (Array, Hash Table)
