@@ -20,6 +20,6 @@ public:
                 r = mid;
         }
         
-        return nums[r];
+        return nums[r]; //l or r 모두 가능
     }
 };
