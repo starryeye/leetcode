@@ -57,6 +57,7 @@ Hash Table
 1941. Check if All Characters Have Equal Number of Occurrences (String, Counting)
 387. First Unique Character in a String (String, Queue, Counting)
 349. Intersection of Two Arrays (Array, Two Pointer, Binary Search, Sorting)
+266. Palindrome Permutation (String, Bit Manipulation)
 
 String
 14. Longest Common Prefix
