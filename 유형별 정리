@@ -201,6 +201,7 @@ Prefix Sum
 238. Product of Array Except Self (Array)
 2214. Minimum Health to Beat Game (Array, Greedy)
 325. Maximum Size Subarray Sum Equals k (Array, Hash Table)
+1658. Minimum Operations to Reduce X to Zero (Array, Hash Table, Binary Search, Sliding Window)
 
 Backtracking
 77. Combinations
