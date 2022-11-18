@@ -138,6 +138,7 @@ Hash Table
 Sliding Window
 438. Find All Anagrams in a String (String, Hash Table)
 1031. Maximum Sum of Two Non-Overlapping Subarrays (Array, Dynamic Programming)
+1695. Maximum Erasure Value (Array, Hash Table)
 
 Dynamic Programming
 139. Word Break (Hash Table, String, Trie, Memoization)
