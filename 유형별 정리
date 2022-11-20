@@ -197,6 +197,7 @@ Sorting
 378. Kth Smallest Element in a Sorted Matrix (Array, Binary Search, Sorting, Heap(Priority Queue), Matrix)
 1029. Two City Scheduling (Array, Greedy)
 791. Custom Sort String (String, Hash Table)
+1996. The Number of Weak Characters in the Game (Array, Stack, Greedy, Monotonic Stack)
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
