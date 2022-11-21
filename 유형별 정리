@@ -198,6 +198,7 @@ Sorting
 1029. Two City Scheduling (Array, Greedy)
 791. Custom Sort String (String, Hash Table)
 1996. The Number of Weak Characters in the Game (Array, Stack, Greedy, Monotonic Stack)
+1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts (Array, Greedy)
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
