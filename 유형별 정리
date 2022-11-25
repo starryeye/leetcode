@@ -225,6 +225,7 @@ Backtracking
 78. Subsets (Array, Bit Manipulation)
 131. Palindrome Partitioning (Array, Dynamic Programming)
 2178. Maximum Split of Positive Even Integers (Math, Greedy)
+1239. Maximum Length of a Concatenated String with Unique Characters (Array, String, Bit Manipulation)
 
 Math
 50. Pow(x, n) (Recursion)
