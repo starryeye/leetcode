@@ -1,6 +1,8 @@
 class Solution {
 public:
     
+    //discuss에 backtracking, bit manipulation 풀이법 익히기..
+    //dfs 풀이..
     int solv(vector<string>& arr, string str, int index) {
         
 
