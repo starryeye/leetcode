@@ -1,6 +1,7 @@
 class Solution {
 public:
     //discuss에 Binary Search, Sliding Window 풀이법 찾아보기..
+    //리뷰 완료..
     int minOperations(vector<int>& nums, int x) {
         
         int answer = nums.size() + 1;
