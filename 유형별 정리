@@ -203,6 +203,7 @@ Sorting
 1996. The Number of Weak Characters in the Game (Array, Stack, Greedy, Monotonic Stack)
 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts (Array, Greedy)
 869. Reordered Power of 2 (Math, Counting, Enumeration)
+2007. Find Original Array From Doubled Array (Array, Hash Table, Greedy)
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
