@@ -190,6 +190,7 @@ BFS/DFS
 1376. Time Needed to Inform All Employees (Tree)
 695. Max Area of Island (Array, Union Find, Matrix)
 286. Walls and Gates (Array, Matrix)
+1197. Minimum Knight Moves
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
