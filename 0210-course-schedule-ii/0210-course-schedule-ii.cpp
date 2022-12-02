@@ -1,7 +1,11 @@
 class Solution {
 public:
+    //discuss 참조하여 다른 풀이는?
     
     //topological solution
+    //topological solution 이란?
+    //indegrees를 왜 써야하는거지?
+    
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         
         vector<vector<int>> graph(numCourses);
@@ -36,8 +40,8 @@ public:
         return result.size() == numCourses ? result : vector<int>();
     }
     
-    /* //내가 가진 알고리즘으로는 어려움..
-    //dfs 순서로 찍는게 아닌 bfs로 찍어야한다.
+    /* //내가 가진 알고리즘으로는 어려움..??????
+    //dfs로는 어떻게 풀어야하지?
     void dfs(int start, int& count, vector<int>& answer, vector<int>& check, vector<vector<int>> adj) {
         check[start] = true;
         answer.push_back(start);
@@ -52,7 +56,7 @@ public:
             dfs(next, count, answer, check, adj);
         }
     }
-    
+    //bfs로는 어떻게 풀어야하지?
     void bfs(int start, int& count, vector<int>& answer, vector<int>& check, vector<vector<int>> adj) {
         check[start] = true;
         answer.push_back(start);
