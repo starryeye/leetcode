@@ -1,6 +1,9 @@
 class Solution {
 public:
-int minimumJumps(vector<int>& forbidden, int a, int b, int x) {
+    //https://leetcode.com/problems/minimum-jumps-to-reach-home/discuss/935384/C%2B%2B-BFS
+    //왜 6000이어야 하는가? 수학적으로..? 분석 필요
+    //visited를 2차원으로 한 이유를 모르겠음
+    int minimumJumps(vector<int>& forbidden, int a, int b, int x) {
     
 		unordered_set<int> forbi(forbidden.begin(), forbidden.end());
     
