@@ -193,6 +193,7 @@ BFS/DFS
 286. Walls and Gates (Array, Matrix)
 1197. Minimum Knight Moves
 797. All Paths From Source to Target (Backtracking, Graph)
+1654. Minimum Jumps to Reach Home (Array, Dynamic Programming)
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
