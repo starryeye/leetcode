@@ -28,7 +28,7 @@ public:
                 
                 for (int j = 0; j < word.size(); j++) {
                     
-                    char c = word[j];
+                    char c = word[j]; //원상 복구 시키기용
                     
                     for (int k = 0; k < 26; k++) {
                         
@@ -40,7 +40,7 @@ public:
                         }
                      }
                     
-                    word[j] = c;
+                    word[j] = c; //원래대로 원상복구 시켜놓기
                 }
             }
             
