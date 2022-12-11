@@ -11,6 +11,10 @@ public:
     //     return a.second < b.second;
     // }
     
+    
+    //discuss에 bucket sort 풀이법( O(N)) 참고해볼것..
+    //347번 문제와 비슷한 문제임.
+    //아래는 O(NlogN)
     int minSetSize(vector<int>& arr) {
         //priority_queue<pair<int, int>, cmp> pq;
         priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> pq;
