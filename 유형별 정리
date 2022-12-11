@@ -210,6 +210,7 @@ Sorting
 869. Reordered Power of 2 (Math, Counting, Enumeration)
 2007. Find Original Array From Doubled Array (Array, Hash Table, Greedy)
 658. Find K Closest Elements (Array, Two Pointer, Binary Search, Sliding Window, Heap(Priority Queue))
+1338. Reduce Array Size to The Half (Array, Hash Table, Greedy, Heap(Priority Queue))
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
