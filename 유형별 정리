@@ -211,6 +211,7 @@ Sorting
 2007. Find Original Array From Doubled Array (Array, Hash Table, Greedy)
 658. Find K Closest Elements (Array, Two Pointer, Binary Search, Sliding Window, Heap(Priority Queue))
 1338. Reduce Array Size to The Half (Array, Hash Table, Greedy, Heap(Priority Queue))
+179. Largest Number (Array, String, Greedy)
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
