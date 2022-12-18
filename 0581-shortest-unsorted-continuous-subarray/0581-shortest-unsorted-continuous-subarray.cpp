@@ -25,8 +25,8 @@ public:
 
         int len = N.size() - 1;
 
-        int left = -1; //index 저장
-        int right = -1;
+        int left = len; //index 저장
+        int right = 0;
 
         int maxN = N[0]; //left 방향에서 직전 index까지의 최댓값
         int minN = N[len]; //right 방향에서 직전 index까지의 최솟값
@@ -48,13 +48,16 @@ public:
                 maxN = a;
 
             if (b > minN) 
-                left = i;
+                left = len - i;
             else 
                 minN = b;
 
         }
 
-        return max(0, right + left - len + 1);
+        if(right == left)
+            return 0;
+        
+        return max(0, right - left + 1);
     }
     
 };
