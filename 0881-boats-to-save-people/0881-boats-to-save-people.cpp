@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //programmers 고득점키트, 구명보트 문제..
     int numRescueBoats(vector<int>& people, int limit) {
         
         int answer = 0;
