@@ -1,32 +1,32 @@
 class Solution {
 public:
+    //2회차, 1회차와 비슷하나.. 1회차가 조금더 나음
+    //discuss.. unordered_map<int, int> 를 두개 쓰면 단 한번의 for문으로 해결가능..
     int findShortestSubArray(vector<int>& nums) {
-        
-        unordered_map<int, vector<int>> um; //k: 값, v: index
-        
-        int maxDegree = 0;
-        vector<int> maxValues;
-        
+        unordered_map<int, vector<int>> um;
+
         for(int i = 0; i < nums.size(); i++) {
-            
+
             um[nums[i]].push_back(i);
-            
-            if(maxDegree < um[nums[i]].size()) {
-                maxDegree = um[nums[i]].size();
-                
-                maxValues.clear();
-                maxValues.push_back(nums[i]);
-            }else if(maxDegree == um[nums[i]].size()) {
-                maxValues.push_back(nums[i]);
+        }
+
+
+        int degreeMax = 0;
+        int answer = 0;
+
+        for(auto u : um) {
+
+            if(degreeMax < u.second.size()) {
+
+                degreeMax = u.second.size();
+
+                answer = um[u.first].back() - um[u.first].front() + 1;
+            }else if(degreeMax == u.second.size()) {
+
+                answer = min(answer, um[u.first].back() - um[u.first].front() + 1);
             }
         }
-        
-        int answer = nums.size();
-        
-        for(auto m : maxValues) {
-            answer = min(answer, um[m].back() - um[m].front());
-        }
-        
-        return answer + 1;
+
+        return answer;
     }
 };
