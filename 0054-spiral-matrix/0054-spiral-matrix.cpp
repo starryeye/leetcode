@@ -4,7 +4,7 @@ public:
     int dy[4] = {0,1,0,-1};
     int dx[4] = {1,0,-1,0};
     
-    
+    //discuss 리뷰 해보면 좋을듯..
     void dfs(int y, int x, int dir, vector<vector<int>>& matrix, vector<vector<bool>>& check, vector<int>& answer) {
         
         check[y][x] = true;
