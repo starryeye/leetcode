@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //discuss는?
     bool isValid(unordered_map<char, int> s1Freq, unordered_map<char, int> s2Freq) {
         
         for(auto s : s1Freq) {
