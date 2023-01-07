@@ -288,3 +288,7 @@ Simulation
  127. Word Ladder (String, Hash Table)
  1293. Shortest Path in a Grid with Obstacles Elimination (Array, Matrix)
  827. Making A Large Island (Array, Union Find, Matrix)
+ 
+ Two Pointer
+ 42. Trapping Rain Water (Array, Dynamic Programming, Stack, Monotonic Stack)
+ 
