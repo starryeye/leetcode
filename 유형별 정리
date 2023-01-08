@@ -206,6 +206,7 @@ BFS/DFS
 1197. Minimum Knight Moves
 797. All Paths From Source to Target (Backtracking, Graph)
 1654. Minimum Jumps to Reach Home (Array, Dynamic Programming)
+542. 01 Matrix (Array, Dynamic Programming, Matrix)
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
