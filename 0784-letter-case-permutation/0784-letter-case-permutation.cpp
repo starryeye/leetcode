@@ -1,7 +1,8 @@
 class Solution {
 public:
     
-    //discuss에서는 backtraking이라 한다...
+    //discuss에서는 backtracking이라 한다...
+    //backtracking : 재귀를 이용한 완전탐색이며, pruning(가지치기) 기법이 포함된다.
     void brute(string& s, vector<string>& answer, int indx) {
         
         if(indx == s.size()) {
