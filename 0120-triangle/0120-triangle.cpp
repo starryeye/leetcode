@@ -1,7 +1,9 @@
 class Solution {
 public:
+    
+    //discuss 참고하여 이해 해보기...
+    // 훨씬 라인 수도 적고, 시간/공간 복잡도 면에서 나은듯..
     int minimumTotal(vector<vector<int>>& triangle) {
-        
         
         vector<vector<int>> dp;
         
