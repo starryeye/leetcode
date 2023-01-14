@@ -34,7 +34,7 @@ public:
             
             
             if ((mid == 0 || mat[max_row][mid] > mat[max_row][mid - 1]) 
-                && (mid == m - 1 || mat[max_row][mid] > mat[max_row][mid + 1])) //양끝이면, 동쪽 서쪽 원소 보다 크면 피크
+                && (mid == m - 1 || mat[max_row][mid] > mat[max_row][mid + 1])) //양끝이면 한쪽만.., 앙끝이 아니면 동쪽 서쪽 원소 보다 크면 피크
                 return {max_row, mid};
             else if (mid > 0 && mat[max_row][mid - 1] > mat[max_row][mid]) //서쪽 원소 보다 작으면 
                 r = mid - 1;
