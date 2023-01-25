@@ -297,6 +297,9 @@ BFS/DFS
 Two Pointer
 42. Trapping Rain Water (Array, Dynamic Programming, Stack, Monotonic Stack)
 
+Sliding Window
+239. Sliding Window Maximum (Array, Queue, Heap(Priority Queue), Monotonic Queue)
+
 Math
 780. Reaching Points
 
