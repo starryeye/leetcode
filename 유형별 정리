@@ -153,6 +153,7 @@ Sliding Window
 1031. Maximum Sum of Two Non-Overlapping Subarrays (Array, Dynamic Programming)
 1695. Maximum Erasure Value (Array, Hash Table)
 567. Permutation in String (String, Hash Table, Two Pointer)
+159. Longest Substring with At Most Two Distinct Characters (String, Hash Table)
 
 Dynamic Programming
 139. Word Break (Hash Table, String, Trie, Memoization)
