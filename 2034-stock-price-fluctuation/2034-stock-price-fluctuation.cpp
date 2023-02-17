@@ -8,6 +8,8 @@ class StockPrice {
     //discuss에서는 multiset으로.. 중복이 허용되는 set을 사용했다.
     //아래는 그 풀이..
     //each function t : O(logn), s : O(n)
+    
+    //추가) discuss에 map, unordered_map 으로 푸는게 있다...
 public:
     
     multiset<int> pricelist;
