@@ -147,6 +147,7 @@ Hash Table
 442. Find All Duplicates in an Array (Array)
 811. Subdomain Visit Count (Array, String, Counting)
 1010. Pairs of Songs With Total Durations Divisible by 60 (Array, Counting)
+1481. Least Number of Unique Integers after K Removals (Array, Greedy, Sorting, Counting)
 
 Ordered Set
 2034. Stock Price Fluctuation (Hash Table, Design, Heap(Priority Queue), Data Stream)
