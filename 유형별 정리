@@ -149,6 +149,7 @@ Hash Table
 811. Subdomain Visit Count (Array, String, Counting)
 1010. Pairs of Songs With Total Durations Divisible by 60 (Array, Counting)
 1481. Least Number of Unique Integers after K Removals (Array, Greedy, Sorting, Counting)
+1429. First Unique Number (Array, Design, Queue, Data Stream)
 
 Ordered Set
 2034. Stock Price Fluctuation (Hash Table, Design, Heap(Priority Queue), Data Stream)
