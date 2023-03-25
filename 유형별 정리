@@ -283,6 +283,7 @@ Matrix
 531. Lonely Pixel I (Array, Hash Table)
 48. Rotate Image (Array, Math)
 54. Spiral Matrix (Array, Simulation, DFS..)
+36. Valid Sudoku (Array, Hash Table, Simulation..)
 
 Graph
 1615. Maximal Network Rank
