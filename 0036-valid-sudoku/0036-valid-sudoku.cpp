@@ -1,4 +1,7 @@
 class Solution {
+    //discuss 방법이 좀 더 좋은듯..
+    //https://leetcode.com/problems/valid-sudoku/discuss/15464/My-short-solution-by-C%2B%2B.-O(n2)
+    
 private:
     bool isValidRow(int row, vector<vector<char>>& board, vector<bool>& checkRow) {
         
