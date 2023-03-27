@@ -1,6 +1,6 @@
 leetcode 유형 정리
 
-<나만의 유형>
+<메모>
 Hand.. 
 O(n)에서.. 하나의 index를 기억하고 있는다.. (sub array)
 하나의 index 란?
@@ -11,8 +11,7 @@ prefix sum의 빼고싶은 최소 구간(sub array 앞쪽 index) : 53 (prefix su
 -> Hand : prefix sum, dp, sliding window, two pointer, hash table 연관이 되어있음..
 
 
-유형별 복습 필요!!!!!!!
-
+문제 
 
  - Easy
 
