@@ -1,7 +1,29 @@
 class Solution {
 public:
+    //sliding window
+    int minSubArrayLen(int target, vector<int>& nums) {
+        
+        int l = 0;
+        int sum = 0;
+        int answer = INT_MAX;
+        
+        for(int r = 0; r<nums.size(); r++) {
+            
+            sum += nums[r];
+            
+            while(target <= sum) { //target 보다 커서 조건을 만족하니까 왼쪽에서 하나씩 빼보자
+                
+                answer = min(answer, r - l + 1);
+                sum -= nums[l];
+                l++;
+            }
+        }
+    
+        return answer == INT_MAX? 0 : answer;
+    }
     
     //prefix sum + two pointers
+    /*
     int minSubArrayLen(int target, vector<int>& nums) {
         
         vector<int> prefixSum = {0};
@@ -28,6 +50,7 @@ public:
         }
         return answer;
     }
+    */
     
     /*
     //prefix sum 과 two pointer로 풀어보려 했지만.. 못 풀었다..
