@@ -11,7 +11,7 @@ from Person
 group by email
 having count(email) > 1;
 
-# select p1.email
+# select distinct(p1.email)
 # from Persion p1, Person p2
 # where p1.email = p2.email and p1.id <> p2.id;
 
