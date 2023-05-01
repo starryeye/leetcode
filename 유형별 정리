@@ -289,6 +289,7 @@ Matrix
 48. Rotate Image (Array, Math)
 54. Spiral Matrix (Array, Simulation, DFS..)
 36. Valid Sudoku (Array, Hash Table, Simulation..)
+1267. Count Servers that Communicate (Array, BFS/DFS, Union Find, Counting)
 
 Graph
 1615. Maximal Network Rank
