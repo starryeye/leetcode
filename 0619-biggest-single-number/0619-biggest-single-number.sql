@@ -11,3 +11,14 @@ from MyNumbers
 group by num
 order by num desc
 limit 1;
+
+
+# discuss solution:
+
+# select max(num) as num
+# from(
+# select num
+# from my_numbers
+# group by num
+# having count(num) = 1
+# )e
