@@ -294,6 +294,7 @@ Matrix
 54. Spiral Matrix (Array, Simulation, DFS..)
 36. Valid Sudoku (Array, Hash Table, Simulation..)
 1267. Count Servers that Communicate (Array, BFS/DFS, Union Find, Counting)
+73. Set Matrix Zeroes (Array, Hash Table)
 
 Graph
 1615. Maximal Network Rank
