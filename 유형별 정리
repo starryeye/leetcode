@@ -68,6 +68,7 @@ Hash Table
 2287. Rearrange Characters to Make Target String (String, Counting)
 383. Ransom Note (String, Counting)
 290. Word Pattern (String)
+359. Logger Rate Limiter (Design)
 
 String
 14. Longest Common Prefix
