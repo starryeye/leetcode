@@ -287,7 +287,6 @@ Math
 1492. The kth Factor of n
 453. Minimum Moves to Equal Array Elements (Array)
 2028. Find Missing Observations (Array, Simulation)
-2684. Maximum Number of Moves in a Grid (Array, Dynamic Programming, DFS..)
 
 String
 6. Zigzag Conversion
@@ -302,6 +301,7 @@ Matrix
 36. Valid Sudoku (Array, Hash Table, Simulation..)
 1267. Count Servers that Communicate (Array, BFS/DFS, Union Find, Counting)
 73. Set Matrix Zeroes (Array, Hash Table)
+2684. Maximum Number of Moves in a Grid (Array, Dynamic Programming, DFS..)
 
 Graph
 1615. Maximal Network Rank
