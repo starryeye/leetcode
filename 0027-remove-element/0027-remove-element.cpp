@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //two pointer
     int removeElement(vector<int>& nums, int val) {
         
         int j = 0;
