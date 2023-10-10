@@ -235,6 +235,7 @@ BFS/DFS
 979. Distribute Coins in Binary Tree (Tree, Binary Tree)
 1254. Number of Closed Islands (Array, Union Find, Matrix)
 934. Shortest Bridge (Array, Matrix)
+339. Nested List Weight Sum
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
