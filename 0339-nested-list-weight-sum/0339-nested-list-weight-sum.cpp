@@ -34,6 +34,7 @@ public:
         return recur(nestedList, 1);
     }
 private:
+    // resursion, dfs
     int recur(vector<NestedInteger>& nestedList, int depth) {
         
         int sum = 0;
