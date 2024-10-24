@@ -189,7 +189,9 @@ Dynamic Programming
 790. Domino and Tromino Tiling
 1035. Uncrossed Lines (Array)
 
-Binary Search (= while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
+Binary Search 
+while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
+예 아니오 문제
 162. Find Peak Element (Array)
 33. Search in Rotated Sorted Array (Array)
 34. Find First and Last Position of Element in Sorted Array (Array)
