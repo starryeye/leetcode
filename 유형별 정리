@@ -329,6 +329,7 @@ Simulation
 Dynamic Programming
 828. Count Unique Characters of All Substrings of a Given String (Hash Table, String)..
 818. Race Car (Backtracking..)
+1335. Minimum Difficulty of a Job Schedule (Array)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
