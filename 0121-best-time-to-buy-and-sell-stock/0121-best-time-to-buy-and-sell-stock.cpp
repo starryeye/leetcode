@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // 단 1회 거래를 할때 최대 이익은?
 
     // dp[i] : i index 날에 최대 이익
     // -> dp[i] : i index 날에 매도 했을때 최대 이익
