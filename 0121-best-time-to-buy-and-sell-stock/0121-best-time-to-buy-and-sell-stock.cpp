@@ -27,4 +27,14 @@ public:
     
         return *max_element(dp.begin(), dp.end());
     }
+
+    /*
+        사실..
+        dp[i] = prices[i] - minPrice; 를
+        dp[i] = max(dp[i - 1], prices[i] - minPrice); 로 변경하면 dp[n-1] 이 답이된다.
+
+        사실..
+        dp[i - 1] 을 하나의 변수로 써도 문제가 풀리기 때문에
+        dp 배열이 필요없다.
+    */
 };
