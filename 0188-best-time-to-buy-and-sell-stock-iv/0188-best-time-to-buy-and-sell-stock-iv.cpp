@@ -22,4 +22,27 @@ public:
 
         return dp[k][n - 1];
     }
+
+    /*
+    // 1차원 배열로 최적화 가능..
+    int maxProfit(int k, vector<int>& prices) {
+        int n = prices.size();
+        if (n == 0 || k == 0) return 0;
+
+        vector<int> dp(n, 0);
+    
+        for (int g = 1; g <= k; g++) {
+            int minPrice = prices[0];
+            int prev = 0; // dp[g-1][i-1]를 저장하기 위한 변수
+            for (int i = 1; i < n; i++) {
+                int temp = dp[i]; // 현재 dp[i]를 임시로 저장 (다음 i를 위해 prev 업데이트)
+                minPrice = min(minPrice, prices[i] - prev);
+                dp[i] = max(dp[i - 1], prices[i] - minPrice);
+                prev = temp; // dp[g-1][i-1] 업데이트
+            }
+        }
+
+        return dp[n - 1];
+    }
+    */
 };
