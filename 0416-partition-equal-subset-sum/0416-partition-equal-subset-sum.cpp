@@ -41,10 +41,6 @@ public:
                 } else {
                     dp[k][i] = dp[k][i - 1];
                 }
-
-                if (dp[target][i]) { // 얼리 리턴, n - 1 까지 고려하지 않은 상태에서 이미 true 가
-                    return true;
-                }
             }
         }
 
