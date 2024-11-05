@@ -3,6 +3,8 @@
 Algorithm & Sql Study  
   
 Profile : https://leetcode.com/starryeye/  
+
+leetcode 외 : [algorithm-problem-hub](https://github.com/starryeye/algorithm-problem-hub)
   
 ## Algorithm 유형별 정리  
   
