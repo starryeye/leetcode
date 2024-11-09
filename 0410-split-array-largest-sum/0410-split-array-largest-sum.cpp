@@ -41,11 +41,15 @@ public:
 
                 for (int j = i; j >= split; j--) {
                     
-                    localArraySum += nums[j];
+                    localArraySum += nums[j]; // j ~ i 까지 원소합
 
                     int currentArraysMaxSum = max(localArraySum, dp[split - 1][j - 1]);
+                    // j ~ i 까지 원소합을..
+                    //      칼을 split-1 만큼 사용했고, j-1 index 까지 고려된 값과 비교해서
+                    // 최댓값
                     
                     dp[split][i] = min({dp[split][i], currentArraysMaxSum});
+                    // dp 에는 최솟값 갱신
                 }
             }
         }
