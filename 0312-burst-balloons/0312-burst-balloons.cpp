@@ -27,6 +27,8 @@ public:
     //              //          left-1 : left ~ i-1 구간 모두 터트렸으므로 left-1 index 가 i index 옆에 존재하게됨
     //          )로 계산됨
     //      여기서 nums[i]는 left와 right 사이에서 마지막으로 터뜨리는 풍선
+
+    // 백준 11049. 행렬 곱셈 순서 문제와 유사
     int maxCoins(vector<int>& nums) {
 
         int n = nums.size();
