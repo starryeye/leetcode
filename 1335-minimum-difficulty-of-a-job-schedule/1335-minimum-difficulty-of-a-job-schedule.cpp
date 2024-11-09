@@ -1,47 +1,73 @@
 class Solution {
 public:
 
-    // 아직 이해안됨.. 이해 필요
+    // 문제
+    // 작업의 순서는 바꿀수 없음
+    // 하루에 하나의 작업은 반드시 수행
+    // 하루에 수행한 작업의 난이도는 그날 작업중 최대 난이도
+    // 스케쥴 난이도는 매일 수행한 작업난이도의 합
+    // 작업 난이도 배열과 작업 일수가 주어질때.. 최소 스케쥴 난이도를 구해라
 
-    /**
-     * @brief 작업 배열을 d일 동안 나누어 처리할 때 최소 난이도 합 계산
-     * 
-     * @param jobDifficulty 작업 난이도를 나타내는 배열
-     * @param d 작업을 나눌 일 수
-     * @return int 최소 난이도 합 (불가능할 경우 -1 반환)
-     */
+    // dp[d][i]
+    //      상태 : d index 일 동안, i index 작업까지 수행함
+    //      값 : 스케쥴 난이도 최소값
+    // i index 작업을 언제 수행 시킬지 선택해야함
+    //          1. i index 작업이 d - 1 index 일에 포함되어 수행되어도 난이도가 변하지 않음 (dp[d - 1][?] + ? ~ i 까지 난이도최대값)
+    //          2. i index 작업이 d - 1 index 일에 포함되어 수행되어 난이도가 변함 (dp[d - 1][?] + difficult[i] -> 1번과 통합 가능)
+    //          3. i index 작업이 d index 일에 포함되어 수행 (dp[d - 1][i - 1] + difficult[i])
+
     int minDifficulty(vector<int>& jobDifficulty, int d) {
+
         int n = jobDifficulty.size();
 
-        // 작업의 개수가 일 수보다 적으면 스케줄링 불가능
-        if (n < d) return -1;
+        if (n < d) return -1; // 작업 수가 일수보다 적다면 불가능
 
-        // dp[i][j]: 첫 i개(0 index ~ i-1 index)의 작업을 j일 동안 처리할 때의 최소 난이도 저장
-        vector<vector<int>> dp(n + 1, vector<int>(d + 1, INT_MAX));
+        // DP 배열 초기화
+        vector<vector<int>> dp(d, vector<int>(n, INT_MAX));
 
-        // 초기 상태: 작업이 없을 때 (i=0, j=0) 난이도는 0
-        dp[0][0] = 0;
+        // 첫날 초기화, 0 index날 동안 0 index 작업만 수행
+        dp[0][0] = jobDifficulty[0];
+        for (int i = 1; i < n; ++i) {
+            dp[0][i] = max(dp[0][i - 1], jobDifficulty[i]); // 0 index 일 동안, i index 작업까지 수행
+        }
 
-        // DP 테이블 채우기: j일 동안 작업을 분배하는 경우를 탐색
-        for (int j = 1; j <= d; ++j) {  // j일 동안
-            for (int i = j; i <= n; ++i) {  // 첫 i개의 작업을 고려할 때
-                int maxDifficulty = 0;  // 현재 구간의 최대 난이도
+        // DP 배열 채우기
+        for (int day = 1; day < d; ++day) { // 둘째날 부터 d번째날(d-1) 까지
 
-                // i번째 작업을 포함하는 구간의 최대 난이도를 찾음
-                for (int k = i; k >= j; --k) {  // 역방향 탐색 (dp 테이블이 최대로 활용됨)
-                    // 현재 구간(k ~ i)의 최대 난이도 갱신
-                    maxDifficulty = max(maxDifficulty, jobDifficulty[k - 1]);
+            // i 는 index 이므로, 현재 전체 작업 개수는 i+1개 이다. 
+            //      그래서 전체 일수도 index 이고 전체 일수가 day+1 이라면.. 
+            //          i 는 최소 day 와 같아야한다. (day <= i)
+            for (int i = day; i < n; ++i) { // day <= i < n
+                
+                int localMaxDifficulty = jobDifficulty[i]; // i index 작업 난이도로 시작
+                dp[day][i] = INT_MAX;
 
-                    // dp[k-1][j-1]이 유효한 값이면 최소 난이도 합 갱신
-                    if (dp[k - 1][j - 1] != INT_MAX) {
-                        dp[i][j] = min(dp[i][j], dp[k - 1][j - 1] + maxDifficulty);
-                    }
+                // j가 day 보다 크거나 같아야하는 이유..?
+                // -> i index 작업을 어떤날에 할당할지.. 새로운 날, 바로 직전의날(편승)에 둘중 하나라고 생각
+                // -> 근데.. 편승을 하는 날(j) 도 사실 day 보다 커야 하루에 하나씩의 작업을 최소한으로 수행하게된다.
+                // j 는 i index 작업과 동일한 날에 수행되는 작업중 가장 난이도가 높은 작업 index 후보이다.
+                for (int j = i; j >= day; --j) { // day <= j < i
+
+                    localMaxDifficulty = max(localMaxDifficulty, jobDifficulty[j]);
+
+                    dp[day][i] = min(dp[day][i], dp[day - 1][j - 1] + localMaxDifficulty);
+                    // dp[day][i] : day 일 동안, i index 작업 까지를 수행 (총 작업난이도 최소 값)
+                    // dp[day - 1][j - 1] + localMaxDifficulty
+                    //      day-1 index 일 동안 j-1 index 작업까지 완료한 최소난이도값 + localMaxDifficulty
+                    //              localMaxDifficulty : i index 작업부터 j index 작업까지(역순으로 탐색됨) 최대의 난이도
+                    // 여기서 역순으로 for loop 를 돌린 이유가 나온다..
+                    //      dp[day - 1][j - 1]
+                    //          day-1 index 일 동안 j-1 index 작업까지 완료한 최소난이도값에..
+                    //      localMaxDifficulty
+                    //          day index 날에 j index 작업 부터 i index 작업까지의 최대 난이도를 더해야한다.
+                    // 참고
+                    // day index 날에 신규로 i index 작업만 할당되는 경우는..
+                    // j == i 일때 고려된다..
                 }
             }
         }
 
-        // 최종 결과 반환: dp[n][d]가 INT_MAX이면 스케줄링 불가(-1 반환)
-        return dp[n][d] == INT_MAX ? -1 : dp[n][d];
+        return dp[d - 1][n - 1];
     }
 };
 
