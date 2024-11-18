@@ -36,6 +36,10 @@ public:
                     
                     if (i + X < n) {
                         dp[i][M] = max(dp[i][M], suffixSum[i] - dp[i + X][max(M, X)]);
+                        // 877. Stone Game 과 동일하게.. 여기서도
+                        // - dp[i + X][max(M, X)] 은.. bob이 최적으로 플레이한 점수
+                        // 그러면 alice 혼자 다 가질때의 점수(suffixSum[i]) 에서
+                        // bob이 최적으로 플레이한 점수를 빼면 alice 의 점수임.
                     } else if (i + X == n) { // 맨마지막에서 시작하면 1개만 남았으므로 무조건 다 가져감..
                         dp[i][M] = max(dp[i][M], suffixSum[i]);
                     }
