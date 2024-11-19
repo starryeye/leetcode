@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // piles
+    // stoneValue
     //      상태 : 돌더미
     //      값 : 더미에 존재하는 돌 갯수
 
@@ -45,8 +45,11 @@ public:
         }
 
         // 결과 판단
-        if (dp[0] > 0) return "Alice";
-        if (dp[0] < 0) return "Bob";
+        if (dp[0] > 0) 
+            return "Alice";
+        if (dp[0] < 0) 
+            return "Bob";
+        
         return "Tie";
     }
 };
