@@ -9,6 +9,7 @@ public:
     // 마지막 인덱스에 도달가능하도록 배열이 주어진다.
     // 마지막 인덱스에 도달하기 위한 최소의 점프 횟수는?
 
+/*
     // dp[i]
     //      상태 : i index 에 위치
     //      값 : 끝 인덱스에 도달하기 위한 최소의 점프 횟수
@@ -33,5 +34,30 @@ public:
         }
 
         return dp[0]; 
+    }
+*/
+
+    // dp[i]
+    //      상태 : i index 에 위치
+    //      값 : i index 에 도달하기 위한 최소 점프
+    int jump(vector<int>& nums) {
+        
+        int n = nums.size();
+
+        vector<int> dp(n, INT_MAX);
+
+        // 초기화
+        dp[0] = 0; // 시작 인덱스
+        
+        for (int currentIndx = 0; currentIndx < n; currentIndx++) {
+
+            int maxReachableIndx = min(currentIndx + nums[currentIndx], n - 1);
+
+            for (int i = currentIndx + 1; i <= maxReachableIndx; i++) {
+                dp[i] = min(dp[i], dp[currentIndx] + 1);
+            }
+        }
+
+        return dp[n - 1]; 
     }
 };
