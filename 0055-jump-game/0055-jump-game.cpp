@@ -1,75 +1,31 @@
 class Solution {
 public:
-    
-     bool canJump(vector<int>& nums) {
-         
-         int max_arrival_index = nums[0] + 0; //도달가능한 최대 사거리 + 최대 사거리의 출발 인덱스
-         
-         for(int i = 1; i < nums.size(); i++) {
-             
-             //현재의 능력으로는 도달 불가능한 인덱스이다..
-             if(max_arrival_index < i)
-                 return false;
-             
-             //최대 사거리 및 인덱스 갱신
-             if(max_arrival_index < nums[i] + i)
-                 max_arrival_index = nums[i] + i;
-         }
-         
-         return true;
-     }
-    
-    
-    /*
-    -> 마지막 인덱스 도달 경우의 수...?
+
+    // 정수 배열 nums가 주어짐.
+    //      각 요소는 해당 위치에서의 최대 점프 길이를 나타냅니다.
+    // 처음에는 배열의 첫 번째 인덱스에 위치
+
+    // 마지막 인덱스에 도달가능하면 true 리턴
+
+    // dp[i]
+    //      상태 : i index 에 위치
+    //      값 : 도달 가능 여부
     bool canJump(vector<int>& nums) {
         
-        vector<int> dp(nums.size(), 0);
+        int n = nums.size();
+
+        vector<bool> dp(n, false);
+
+        // 초기화
+        dp[0] = true; // 시작지점
         
-        dp[0] = 1;
-        
-        for(int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i <= n - 2; i++) {
             
-            for(int j = i + 1; j <= i + nums[i]; j++) {
-                
-                if(j > nums.size() - 1)
-                    continue;
-                
-                dp[j] += dp[i];
+            if (dp[i] == true && i + nums[i] <= n - 1) {
+                dp[i + nums[i]] = true;
             }
         }
-        
-        return dp[nums.size() - 1] > 0;
-    }
-    */
-};
-/*
--> dp(update)
-class Solution {
 
-    vector<int> memo;
-    
-    public:
-    
-    bool canJump(vector<int>& nums) {
-    
-        int n=nums.size();
-        vector<int> dp(n,0);
-        
-        dp[0]=true;
-        
-        for(int i=1;i<n;i++){
-        
-             for(int j=i-1;j>=0;j--){
-             
-                 if(dp[j] && j+nums[j]>=i){
-                     dp[i]=true;
-                     break;
-                 }       
-             }           
-        }
-        
-        return dp[n-1];
-  }
+        return dp[n - 1];
+    }
 };
-*/
