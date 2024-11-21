@@ -29,6 +29,8 @@ public:
     // dp[i][j]
     //      상태 : 처음 i개의 이벤트 중 최대 j개의 이벤트를 선택
     //      값 : 최대 가치
+
+    // 1235. Maximum Profit in Job Scheduling 와 비슷함.
     int maxValue(vector<vector<int>>& events, int k) {
 
         int n = events.size();
