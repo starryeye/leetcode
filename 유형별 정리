@@ -37,7 +37,7 @@ Dynamic Programming
 746. Min Cost Climbing Stairs (Array)
 509. Fibonacci Number (Math, Recursion, Memoization)
 119. Pascal's Triangle II (Array)
-121. Best Time to Buy and Sell Stock
+121. Best Time to Buy and Sell Stock (Array)
 
 Two Pointer
 125. Valid Palindrome (String)
@@ -189,6 +189,11 @@ Dynamic Programming
 120. Triangle (Array)
 790. Domino and Tromino Tiling
 1035. Uncrossed Lines (Array)
+122. Best Time to Buy and Sell Stock II (Array, Greedy)
+309. Best Time to Buy and Sell Stock with Cooldown (Array)
+714. Best Time to Buy and Sell Stock with Transaction Fee (Array, Greedy)
+416. Partition Equal Subset Sum (Array)
+494. Target Sum (Array, Backtracking)
 
 Binary Search 
 while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
@@ -331,6 +336,10 @@ Dynamic Programming
 828. Count Unique Characters of All Substrings of a Given String (Hash Table, String)..
 818. Race Car (Backtracking..)
 1335. Minimum Difficulty of a Job Schedule (Array)..
+123. Best Time to Buy and Sell Stock III (Array)
+188. Best Time to Buy and Sell Stock IV (Array)
+1235. Maximum Profit in Job Scheduling (Array, Binary Search, Sorting)
+1751. Maximum Number of Events That Can Be Attended II (Array, Binary Search, Sorting)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
