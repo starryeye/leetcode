@@ -178,8 +178,6 @@ Dynamic Programming
 198. House Robber (Array)
 213. House Robber II (Array)
 300. Longest Increasing Subsequence (Array, Binary Search)
-322. Coin Change (Array, BFS)
-377. Combination Sum IV (Array)
 62. Unique Paths (Math, Combinatorics)
 64. Minimum Path Sum (Array, Matrix)
 1567. Maximum Length of Subarray With Positive Product (Array, Greedy)
@@ -194,6 +192,9 @@ Dynamic Programming
 714. Best Time to Buy and Sell Stock with Transaction Fee (Array, Greedy)
 416. Partition Equal Subset Sum (Array)
 494. Target Sum (Array, Backtracking)
+377. Combination Sum IV (Array)
+322. Coin Change (Array, BFS)
+518. Coin Change II (Array)
 
 Binary Search 
 while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
@@ -340,6 +341,11 @@ Dynamic Programming
 188. Best Time to Buy and Sell Stock IV (Array)
 1235. Maximum Profit in Job Scheduling (Array, Binary Search, Sorting)
 1751. Maximum Number of Events That Can Be Attended II (Array, Binary Search, Sorting)
+629. K Inverse Pairs Array
+871. Minimum Number of Refueling Stops (Array, Greedy, Heap(Priority Queue))
+2742. Painting the Walls (Array)
+956. Tallest Billboard (Array)
+1402. Reducing Dishes (Array, Greedy, Sorting)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
