@@ -179,7 +179,6 @@ Dynamic Programming
 213. House Robber II (Array)
 300. Longest Increasing Subsequence (Array, Binary Search)
 62. Unique Paths (Math, Combinatorics)
-64. Minimum Path Sum (Array, Matrix)
 1567. Maximum Length of Subarray With Positive Product (Array, Greedy)
 1048. Longest String Chain (Array, Hash Table, Two Pointer, String)
 55. Jump Game (Array, Greedy)
@@ -195,6 +194,9 @@ Dynamic Programming
 377. Combination Sum IV (Array)
 322. Coin Change (Array, BFS)
 518. Coin Change II (Array)
+63. Unique Paths II (Array, Matrix)
+64. Minimum Path Sum (Array, Matrix)
+576. Out of Boundary Paths
 
 Binary Search 
 while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
@@ -346,6 +348,12 @@ Dynamic Programming
 2742. Painting the Walls (Array)
 956. Tallest Billboard (Array)
 1402. Reducing Dishes (Array, Greedy, Sorting)
+1289. Minimum Falling Path Sum II (Array, Matrix)
+174. Dungeon Game (Array, Matrix)
+741. Cherry Pickup (Array, Matrix)
+329. Longest Increasing Path in a Matrix (Array, BFS/DFS, Graph, Topological Sort, Memoization, Matrix)
+85. Maximal Rectangle (Array, Stack, Matrix, Monotonic Stack)
+2328. Number of Increasing Paths in a Grid (Array, BFS/DFS, Graph, Topological Sort, Memoization, Matrix)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
