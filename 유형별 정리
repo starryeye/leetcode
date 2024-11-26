@@ -356,6 +356,9 @@ Dynamic Programming
 85. Maximal Rectangle (Array, Stack, Matrix, Monotonic Stack)
 2328. Number of Increasing Paths in a Grid (Array, BFS/DFS, Graph, Topological Sort, Memoization, Matrix)
 265. Paint House II (Array)
+975. Odd Even Jump (Array, Stack, Monotonic Stack, Ordered Set)
+801. Minimum Swaps To Make Sequences Increasing (Array)
+403. Frog Jump (Array)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
