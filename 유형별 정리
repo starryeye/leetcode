@@ -359,6 +359,13 @@ Dynamic Programming
 975. Odd Even Jump (Array, Stack, Monotonic Stack, Ordered Set)
 801. Minimum Swaps To Make Sequences Increasing (Array)
 403. Frog Jump (Array)
+312. Burst Balloons (Array)
+1547. Minimum Cost to Cut a Stick (Array, Sorting)
+1526. Minimum Number of Increments on Subarrays to Form a Target Array (Array, Stack, Greedy, Monotonic Stack)
+3229. Minimum Operations to Make Array Equal to Target (Array, Stack, Greedy, Monotonic Stack)
+546. Remove Boxes (Array, Memoization)
+1000. Minimum Cost to Merge Stones (Array, Prefix Sum)
+1326. Minimum Number of Taps to Open to Water a Garden (Array, Greedy)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
