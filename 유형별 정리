@@ -180,7 +180,6 @@ Dynamic Programming
 62. Unique Paths (Math, Combinatorics)
 1567. Maximum Length of Subarray With Positive Product (Array, Greedy)
 1048. Longest String Chain (Array, Hash Table, Two Pointer, String)
-55. Jump Game (Array, Greedy)
 2110. Number of Smooth Descent Periods of a Stock (Array, Math)
 120. Triangle (Array)
 790. Domino and Tromino Tiling
@@ -198,6 +197,9 @@ Dynamic Programming
 576. Out of Boundary Paths
 256. Paint House (Array)
 300. Longest Increasing Subsequence (Array, Binary Search)
+55. Jump Game (Array, Greedy)
+45. Jump Game II (Array, Greedy)
+1340. Jump Game V (Array, Sorting)
 
 Binary Search 
 while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
