@@ -200,6 +200,8 @@ Dynamic Programming
 55. Jump Game (Array, Greedy)
 45. Jump Game II (Array, Greedy)
 1340. Jump Game V (Array, Sorting)
+877. Stone Game (Array, Math, Game Theory)
+1140. Stone Game II (Array, Math, Prefix Sum, Game Theory)
 
 Binary Search 
 while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
@@ -374,6 +376,9 @@ Dynamic Programming
 44. Wildcard Matching (String, Greedy, Recursion)
 354. Russian Doll Envelopes (Array, Binary Search, Sorting)
 329. Longest Increasing Path in a Matrix (Array, BFS/DFS, Graph, Topological Sort, Memoization, Matrix)
+1406. Stone Game III (Array, Math, Game Theory)
+1510. Stone Game IV (Math, Game Theory)
+3193. Count the Number of Inversions (Array)
 
 BFS/DFS
 127. Word Ladder (String, Hash Table)
