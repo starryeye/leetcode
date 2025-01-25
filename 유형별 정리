@@ -202,6 +202,7 @@ Dynamic Programming
 1340. Jump Game V (Array, Sorting)
 877. Stone Game (Array, Math, Game Theory)
 1140. Stone Game II (Array, Math, Prefix Sum, Game Theory)
+647. Palindromic Substrings (String, Two Pointer)
 
 Binary Search 
 while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이다. (밑이 2임!)
