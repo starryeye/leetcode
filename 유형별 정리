@@ -278,6 +278,7 @@ Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
 692. Top K Frequent Words (Hash Table, String, Trie, Sorting, Bucket Sort, Counting)
 1167. Minimum Cost to Connect Sticks (Array, Greedy)
+451. Sort Characters By Frequency (Hash Table, String, Sorting, Bucket Sort, Counting)
 
 Prefix Sum
 560. Subarray Sum Equals K (Array, Hash Table)
