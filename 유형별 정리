@@ -10,6 +10,13 @@ O(n)에서.. 하나의 index를 기억하고 있는다.. (sub array)
 prefix sum의 빼고싶은 최소 구간(sub array 앞쪽 index) : 53 (prefix sum, dp)
 -> Hand : prefix sum, dp, sliding window, two pointer, hash table 연관이 되어있음..
 
+<custom categorize> // 핵심은 아니지만 2번째 핵심이며, 강조를 하고 싶거나 자체 카테고리..
+기존에 없는 경우 두번째 괄호로 표기
+Randomized // 기존에 있으나 강조 필요
+String Parsing // 기존에 없음
+
+
+
 
 문제의 가장 핵심이 되는 알고리즘 유형으로 정리
 
@@ -275,7 +282,7 @@ Sorting
 1338. Reduce Array Size to The Half (Array, Hash Table, Greedy, Heap(Priority Queue))
 179. Largest Number (Array, String, Greedy)
 2294. Partition Array Such That Maximum Difference Is K (Array, Greedy)
-539. Minimum Time Difference (Array, Math, String)
+539. Minimum Time Difference (Array, Math, String)(String Parsing)
 
 Heap(Priority Queue)
 1405. Longest Happy String (String, Greedy)
