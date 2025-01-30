@@ -256,6 +256,7 @@ BFS/DFS
 1254. Number of Closed Islands (Array, Union Find, Matrix)
 934. Shortest Bridge (Array, Matrix)
 339. Nested List Weight Sum
+959. Regions Cut By Slashes (Array, Hash Table, Union Find, Matrix)
 
 Sorting
 215. Kth Largest Element in an Array (Array, Divide and Conquer, Heap(Priority Queue), Quickselect)
