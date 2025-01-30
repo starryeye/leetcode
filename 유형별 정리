@@ -288,6 +288,7 @@ Prefix Sum
 2214. Minimum Health to Beat Game (Array, Greedy)
 325. Maximum Size Subarray Sum Equals k (Array, Hash Table)
 1658. Minimum Operations to Reduce X to Zero (Array, Hash Table, Binary Search, Sliding Window)
+528. Random Pick with Weight (Array, Math, Binary Search, Randomized)
 
 Backtracking 
 재귀를 이용한 완전탐색(Brute Force)의 방법중 하나이며, 
