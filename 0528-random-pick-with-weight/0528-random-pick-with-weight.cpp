@@ -14,16 +14,16 @@ public:
         prefix_sum.push_back(w[0]);
 
         for (int i = 1; i < w.size(); i++) {
-            prefix_sum.push_back(prefix_sum[i - 1] + w[i]);
+            prefix_sum.push_back(prefix_sum[i - 1] + w[i]); // prefix sum
         }
     }
     
     int pickIndex() {
         
         int total_sum = prefix_sum.back();
-        int n = rand() % total_sum + 1;
+        int n = rand() % total_sum + 1; // randomized
 
-        auto iter = lower_bound(prefix_sum.begin(), prefix_sum.end(), n);
+        auto iter = lower_bound(prefix_sum.begin(), prefix_sum.end(), n); // binary search
 
         return iter - prefix_sum.begin();
     }
