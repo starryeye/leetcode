@@ -228,6 +228,7 @@ while문의 1회 로직으로 후보군의 반을 제외 시키면 O(logN) 이�
 540. Single Element in a Sorted Array (Array)
 1901. Find a Peak Element II (Array, Matrix)
 74. Search a 2D Matrix (Array, Matrix)
+475. Heaters (Array, Two Pointer, Sorting)
 
 Greedy
 1775. Equal Sum Arrays With Minimum Number of Operations (Array, Hash Table, Counting)
