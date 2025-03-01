@@ -1,6 +1,7 @@
 class HitCounter {
 private:
     vector<int> timestamps;
+    mutex mtx;
 
 public:
     HitCounter() {
@@ -8,10 +9,12 @@ public:
     }
     
     void hit(int timestamp) {
+        lock_guard<mutex> lock(mtx);
         timestamps.push_back(timestamp);
     }
     
     int getHits(int timestamp) {
+        lock_guard<mutex> lock(mtx);
         
         auto current_iter = upper_bound(timestamps.begin(), timestamps.end(), timestamp);
         auto previous_iter = upper_bound(timestamps.begin(), timestamps.end(), timestamp - 60 * 5);
