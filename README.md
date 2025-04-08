@@ -4,7 +4,7 @@ Algorithm & Sql Study
   
 Profile : https://leetcode.com/starryeye/  
 
-leetcode ì¸ : [algorithm-problem-hub](https://github.com/starryeye/algorithm-problem-hub)
+leetcode 외 : [algorithm-problem-hub](https://github.com/starryeye/algorithm-problem-hub)
   
 ## Algorithm 유형별 정리
   
