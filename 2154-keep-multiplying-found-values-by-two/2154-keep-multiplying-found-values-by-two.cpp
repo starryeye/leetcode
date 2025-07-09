@@ -16,6 +16,7 @@ public:
     //     return original;
     // }
 
+    // O(n long n)
     int findFinalValue(vector<int>& nums, int original) {
         
         sort(nums.begin(), nums.end());
