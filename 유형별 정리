@@ -103,6 +103,7 @@ Sorting
 252. Meeting Rooms (Array)
 1636. Sort Array by Increasing Frequency (Array, Hash Table)
 1833. Maximum Ice Cream Bars (Array, Greedy)
+2099. Find Subsequence of Length K With the Largest Sum (Array, Hash Table, Heap(Priority Queue))
 
 Stack
 20. Valid Parentheses (String)
